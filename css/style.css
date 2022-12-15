@@ -12,6 +12,8 @@
 
 /* Лого футер цвет - #F4F4FD */
 
+/*button active color - 404BBF */
+
 /* Абзац  футер цвет - #E7E9FC */
 
 :root {
@@ -22,6 +24,7 @@
 --secondary-background-color: #F4F4FD;
 --white-color: #FFFFFF;
 --secondary-accent-color:#E7E9FC;
+--button-active-color: #404BBF;
 }
 
 .list {
@@ -103,6 +106,10 @@ background-color:  var(--accent-color);
 color: var(--white-color);
 font-weight: 600;
 line-height: 1.2;
+}
+
+.hero-button:active {
+background-color:var(--button-active-color);
 }
 
 /* Advantages */

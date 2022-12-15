@@ -1,0 +1,109 @@
+/* Основной цвет текста - #434455  */
+
+/*  цвет  заголовка - #2E2F42 */
+
+/* Фоновый цвет - #E5E5E5 */
+
+/* Фоновый цвет 2 - #F4F4FD */
+
+/* Акцент -  #4D5AE5 */
+
+/* Белый - #ffff */
+
+/* Лого футер цвет - #F4F4FD */
+
+/* Абзац цвет футер - #E7E9FC */
+
+:root {
+--primary-text-color: #434455;
+--title-text-color: #2E2F42;
+--accent-color: #4D5AE5;
+--primary-background-color: #E5E5E5;
+--secondary-background-color: #F4F4FD;
+--white-color: #FFFFFF;
+--footer-logo-color: #F4F4FD;
+--footer-text-color:#E7E9FC;
+
+}
+
+.list {
+	list-style: none;
+}
+
+body {
+	color: var(--primary-text-color);
+
+}
+
+a {
+	text-decoration: none;
+}
+
+/* logo */
+.logo {
+	color: var(--title-text-color);
+	
+}
+
+.logo-part {
+	color: var(--accent-color);
+
+}
+
+/* Site Nav */
+.site-nav a {
+color: var(--title-text-color);
+	
+}
+
+.contacts a {
+	color: var(--primary-text-color);
+
+}
+
+/* Hero */
+.hero {
+	background-color: var(--title-text-color);
+}
+
+.hero-title {
+color: var(--white-color);
+}
+
+.hero-button {
+	background-color:  var(--accent-color);
+	color: var(--white-color);
+}
+
+/* advantages */
+
+.advantages h3,
+.team-list h3 {
+color: var(--title-text-color);
+}
+
+/* Products */
+
+.products h2,
+.team h2 {
+color: var(--title-text-color);
+}
+
+/* Team */
+.team {
+	background-color: var(--secondary-background-color);
+}
+
+/* Footer */
+
+.footer{
+	background-color: var(--title-text-color);
+}
+
+.logo-footer{
+	color: var(--footer-logo-color)
+}
+
+.footer p {
+	color: var(--footer-text-color)
+}

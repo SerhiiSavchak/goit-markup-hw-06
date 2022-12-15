@@ -12,7 +12,7 @@
 
 /* Лого футер цвет - #F4F4FD */
 
-/* Абзац цвет футер - #E7E9FC */
+/* Абзац  футер цвет - #E7E9FC */
 
 :root {
 --primary-text-color: #434455;
@@ -21,65 +21,71 @@
 --primary-background-color: #E5E5E5;
 --secondary-background-color: #F4F4FD;
 --white-color: #FFFFFF;
---footer-logo-color: #F4F4FD;
 --footer-text-color:#E7E9FC;
-
 }
 
 .list {
-	list-style: none;
+list-style: none;
 }
 
 body {
-	color: var(--primary-text-color);
-
+color: var(--primary-text-color);
+font-family: Roboto,sans-serif;
+font-weight: 400;
 }
 
 a {
-	text-decoration: none;
+text-decoration: none;
+font-style: normal;
 }
 
 /* logo */
 .logo {
-	color: var(--title-text-color);
-	
+color: var(--title-text-color);
+font-family: Raleway;
+text-transform: uppercase;
+font-weight: 800;
 }
 
 .logo-part {
-	color: var(--accent-color);
+color: var(--accent-color);
+font-weight: 800;
 
 }
 
 /* Site Nav */
 .site-nav a {
 color: var(--title-text-color);
-	
+font-weight: 600;
 }
 
 .contacts a {
-	color: var(--primary-text-color);
+color: var(--primary-text-color);
 
 }
 
 /* Hero */
 .hero {
-	background-color: var(--title-text-color);
+background-color: var(--title-text-color);
 }
 
 .hero-title {
 color: var(--white-color);
+font-weight: 600;
 }
 
 .hero-button {
-	background-color:  var(--accent-color);
-	color: var(--white-color);
+background-color:  var(--accent-color);
+color: var(--white-color);
+font-weight: 600;
 }
 
-/* advantages */
+/* Advantages */
 
 .advantages h3,
 .team-list h3 {
 color: var(--title-text-color);
+font-weight: 600;
 }
 
 /* Products */
@@ -87,23 +93,67 @@ color: var(--title-text-color);
 .products h2,
 .team h2 {
 color: var(--title-text-color);
+font-weight: 600;
 }
 
 /* Team */
 .team {
-	background-color: var(--secondary-background-color);
+background-color: var(--secondary-background-color);
 }
 
+.team.list li  {
+background-color: var(--white-color);
+}
 /* Footer */
 
 .footer{
-	background-color: var(--title-text-color);
+background-color: var(--title-text-color);
 }
 
+/* Logo footer */
+
 .logo-footer{
-	color: var(--footer-logo-color)
+color: var(--secondary-background-color);
+font-family: Raleway;
+text-transform: uppercase;
+font-weight: 800;
+}
+
+.logo-studio{
+color:var(--secondary-background-color);
 }
 
 .footer p {
-	color: var(--footer-text-color)
+color: var(--footer-text-color)
 }
+
+/* PORTFOLIO.html */
+
+/* Examples nav */
+
+.examples-nav button {
+background-color: var(--secondary-background-color);
+color: var(--accent-color);
+font-family: Roboto;
+font-weight: 600;
+}
+
+.examples-nav button:hover{
+background-color: var(--accent-color);
+color: var(--white-color);
+}
+
+/* Examples content */
+
+.examples.list h2 {
+color: var(--title-text-color);
+font-weight: 600;
+}
+
+.examples.list p {
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+font-weight: 400;
+}
+
+

@@ -21,7 +21,7 @@
 --primary-background-color: #E5E5E5;
 --secondary-background-color: #F4F4FD;
 --white-color: #FFFFFF;
---footer-text-color:#E7E9FC;
+--secondary-accent-color:#E7E9FC;
 }
 
 .list {
@@ -34,10 +34,7 @@ font-family: Roboto,sans-serif;
 font-weight: 400;
 }
 
-a {
-text-decoration: none;
-font-style: normal;
-}
+
 
 /* logo */
 .logo {
@@ -45,6 +42,8 @@ color: var(--title-text-color);
 font-family: Raleway;
 text-transform: uppercase;
 font-weight: 800;
+text-decoration: none;
+font-style: normal;
 }
 
 .logo-firstpart {
@@ -57,10 +56,14 @@ font-weight: 800;
 .site-nav a {
 color: var(--title-text-color);
 font-weight: 600;
+text-decoration: none;
+font-style: normal;
 }
 
 .contacts a {
 color: var(--primary-text-color);
+text-decoration: none;
+font-style: normal;
 
 }
 
@@ -117,6 +120,8 @@ color: var(--secondary-background-color);
 font-family: Raleway;
 text-transform: uppercase;
 font-weight: 800;
+text-decoration: none;
+font-style: normal;
 }
 
 .logo-lastpart {
@@ -124,7 +129,7 @@ color:var(--secondary-background-color);
 }
 
 .footer p {
-color: var(--footer-text-color)
+color: var(--secondary-accent-color)
 }
 
 /* PORTFOLIO.html */
@@ -144,6 +149,10 @@ color: var(--white-color);
 }
 
 /* Examples content */
+.examples.list a {
+text-decoration: none;
+font-style: normal;
+}
 
 .examples.list h2 {
 color: var(--title-text-color);

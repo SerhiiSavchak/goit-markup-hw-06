@@ -32,6 +32,7 @@ body {
 color: var(--primary-text-color);
 font-family: Roboto,sans-serif;
 font-weight: 400;
+letter-spacing: 0.02em;
 }
 
 
@@ -44,11 +45,12 @@ text-transform: uppercase;
 font-weight: 800;
 text-decoration: none;
 font-style: normal;
+letter-spacing: 0.03em
 }
 
 .logo-firstpart {
 color: var(--accent-color);
-font-weight: 800;
+
 
 }
 
@@ -60,12 +62,21 @@ text-decoration: none;
 font-style: normal;
 }
 
+.site-nav a:hover,
+.site-nav a:focus {
+color: var(--accent-color);
+font-weight: 600;
+text-decoration: none;
+font-style: normal;
+}
+
+
 .contacts a {
 color: var(--primary-text-color);
 text-decoration: none;
 font-style: normal;
-
 }
+
 
 /* Hero */
 .hero {
@@ -113,21 +124,11 @@ background-color: var(--white-color);
 background-color: var(--title-text-color);
 }
 
-/* Logo footer */
-
-.logo-footer{
-color: var(--secondary-background-color);
-font-family: Raleway;
-text-transform: uppercase;
-font-weight: 800;
-text-decoration: none;
-font-style: normal;
-}
-
+/*  footer */
 .logo-lastpart {
-color:var(--secondary-background-color);
-}
+color: var(--secondary-background-color)
 
+}
 .footer p {
 color: var(--secondary-accent-color)
 }
@@ -141,14 +142,19 @@ background-color: var(--secondary-background-color);
 color: var(--accent-color);
 font-family: Roboto;
 font-weight: 600;
+border: 1px solid var(--secondary-accent-color);
+	border-radius: 4px;
 }
 
-.examples-nav button:hover{
+.examples-nav button:hover,
+.examples-nav button:focus
+{
 background-color: var(--accent-color);
 color: var(--white-color);
 }
 
-/* Examples content */
+/* Examples */
+
 .examples.list a {
 text-decoration: none;
 font-style: normal;

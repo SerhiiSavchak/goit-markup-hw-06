@@ -120,6 +120,7 @@ background-color:var(--button-active-color);
 .products h2, .team h2 {
 	font-size: 36px;
 	text-transform: capitalize;
+	text-align: center ;
 }
 
 .title {

@@ -113,14 +113,23 @@ background-color:var(--button-active-color);
 
 /* Advantages */
 
-
+.advantages-title{
+color: var(--title-text-color);
+font-weight: 600;
+line-height: 1.2;
+font-size: 20px;
+}
 
 /* Products */
 
-.products h2, .team h2 {
+.section-title {
+	color:var(--title-text-color);
 	font-size: 36px;
 	text-transform: capitalize;
 	text-align: center ;
+	line-height: 1.11;
+	font-weight: 600;
+	
 }
 
 .title {
@@ -137,6 +146,12 @@ background-color: var(--secondary-background-color);
 
 .team.list li  {
 background-color: var(--white-color);
+}
+.section-subtitle {
+color: var(--title-text-color);
+font-weight: 600;
+line-height: 1.2;
+font-size: 20px;
 }
 
 
@@ -189,7 +204,6 @@ color: var(--white-color);
 text-decoration: none;
 font-style: normal;
 }
-
 
 .examples.list p {
 color: var(--primary-text-color);

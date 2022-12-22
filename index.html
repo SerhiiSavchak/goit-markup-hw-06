@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -13,25 +17,27 @@
   </head>
   <body>
     <!--Header-->
-    <header>
+    <header class="page-header">
       <!--Navigate-->
-      <nav>
-        <a href="./index.html" class="logo">
-          <span class="logo-firstpart">Web</span>Studio</a
-        >
-        <ul class="site-nav list">
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <!--Contacts-->
-      <address>
-        <ul class="contacts list">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <nav class="nav-container">
+          <a href="./index.html" class="logo">
+            <span class="logo-firstpart">Web</span>Studio</a
+          >
+          <ul class="site-nav list">
+            <li><a href="./index.html">Studio</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <!--Contacts-->
+        <address class="contacts-container">
+          <ul class="contacts list">
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!--Main content-->
     <main>
@@ -41,41 +47,43 @@
         <button class="hero-button" type="button">Order Service</button>
       </section>
       <!--Advantages-->
-      <section class="advantages">
-        <h2>Advantages</h2>
-        <ul class="advantages list">
-          <li>
-            <h3 class="advantages-title">Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-title">Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-title">Diligence</h3>
-            <p>
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-title">Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="section advantages">
+        <div class="container">
+          <h2>Advantages</h2>
+          <ul class="advantages list">
+            <li>
+              <h3 class="advantages-title">Strategy</h3>
+              <p>
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantages-title">Punctuality</h3>
+              <p>
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantages-title">Diligence</h3>
+              <p>
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantages-title">Technologies</h3>
+              <p>
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Product-->
-      <section class="products">
+      <section class="section products">
         <h2 class="section-title">What Are We Doing</h2>
         <ul class="products list">
           <li>
@@ -105,7 +113,7 @@
         </ul>
       </section>
       <!--Team-->
-      <section class="team">
+      <section class="section team">
         <h2 class="section-title">Our Team</h2>
         <ul class="team list">
           <li>

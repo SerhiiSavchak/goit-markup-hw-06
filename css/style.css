@@ -53,11 +53,14 @@ line-height: 1.5;
 	padding-bottom: 120px;
 }
 
+.section-no-padding{
+	padding-top: 0;
+	padding-bottom: 120px;
+}
 /* Header */
 
 .page-header {
 background-color: var(--white-color);
-
 }
 
 .nav-container {
@@ -139,6 +142,7 @@ cursor: pointer;
 border-radius: 4px;
 border: transparent;
 padding:16px 32px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:active {
@@ -147,16 +151,13 @@ background-color:var(--button-active-color);
 
 /* Advantages */
 
-.section .advantages {
-	outline: 2px solid tomato;
-}
 .advantages h2 {
 	display: none;
 	margin:0;
 }
 
 .advantages p {
-	margin-top: 0px;
+	margin: 0px;
 }
 
 .advantages-title{
@@ -170,7 +171,6 @@ margin-bottom: 8px;
 
 /* Products */
 .section.products {
-	outline: 2px solid tomato;
 	margin-top: 0px;
 }
 
@@ -182,6 +182,8 @@ margin-bottom: 8px;
 	line-height: 1.11;
 	font-weight: 600;
 	margin-top: 0px;
+	margin-bottom: 72px;
+	
 	
 }
 
@@ -193,18 +195,33 @@ margin-bottom: 8px;
 }
 
 /* Team */
+
+.section.team p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 32px;
+
+}
+
+
 .team {
 background-color: var(--secondary-background-color);
+text-align: center;
 }
 
 .team.list li  {
 background-color: var(--white-color);
+width: 264px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
 }
 .section-subtitle {
 color: var(--title-text-color);
 font-weight: 600;
 line-height: 1.2;
 font-size: 20px;
+margin-top: 32px;
+	margin-bottom: 8px;
 }
 
 
@@ -213,6 +230,7 @@ font-size: 20px;
 .footer{
 background-color: var(--title-text-color);
 }
+
 
 /*  footer logo */
 
@@ -226,13 +244,19 @@ color: var(--secondary-background-color)
 }
 .footer p {
 color: var(--secondary-accent-color);
+margin:0;
 }
 
 /* PORTFOLIO.html */
 
 /* Examples nav */
+.section-examples {
+	padding-top: 96px;
+	padding-bottom: 120px;
+}
 
 .examples-nav button {
+	padding: 12px 24px;
 background-color: var(--secondary-background-color);
 color: var(--accent-color);
 font-family: Roboto;
@@ -242,6 +266,7 @@ border: 1px solid var(--secondary-accent-color);
 border-radius: 4px;
 cursor: pointer;
 letter-spacing: 0.04em;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .examples-nav button:hover,
@@ -250,8 +275,27 @@ letter-spacing: 0.04em;
 background-color: var(--accent-color);
 color: var(--white-color);
 }
+.examples-nav.list{
+
+	margin-bottom: 72px;
+}
 
 /* Examples */
+.section-examples h1 {
+display: none;
+}
+
+
+.section-examples p {
+margin-top: 0;
+margin-bottom: 0;
+padding-bottom: 32px;
+}
+
+.examples.list li {
+	border: 0.5px solid var(--secondary-background-color);
+		box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .examples.list a {
 text-decoration: none;

@@ -361,6 +361,9 @@ margin-bottom: 72px;
 	flex-wrap: wrap;
 	
 }
+.section-examples h1 {
+	margin: 0;
+}
 .examples.list h2 {
 margin-left: 16px;
 }

@@ -482,7 +482,7 @@ width: 1158px;
 
 
 .social-item{
-	display: inline-block;
+	display: inline-block;;
 border-radius: 50%;
 width: 40px;
 height: 40px;
@@ -509,6 +509,7 @@ color: var(--white-color);
  margin-left: 120px;
 
 }
+
 
 
 /*  footer logo */

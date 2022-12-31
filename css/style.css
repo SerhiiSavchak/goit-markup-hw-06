@@ -283,18 +283,6 @@ font-size: 20px;
 	
 }
 
-/* 
-.advantages-item::before {
-	display: block;
-content: "";
-height: 112px;
-background-position: center;
-	background-repeat: no-repeat; 
-background-color: var(--secondary-background-color);
-border-radius: 4px;
-margin-bottom: 8px;
-} */
-
 
 /* Products */
 
@@ -387,12 +375,13 @@ text-align: center;
 	margin-right: 24px;
 }
 
-.team.list .team-item  {
+.team-item  {
 width: 264px;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
 	background-color: var(--white-color);
 }
+
 .section-subtitle {
 margin: 0;
 padding-top: 32px;
@@ -413,51 +402,43 @@ font-size: 20px;
 padding-top: 130px;
 }
 
-.brand-link {
-display: inline-block;
-	
+.brand-item {
+	width: 168px;
+	height: 88px;
 }
-.bg-brand {
-	display: inline-block;
+
+.brand-item:not(:last-child) {
+	margin-right: 24px;
+}
+
+.brand-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+height: 100%;
+width: 100%;
 border: 1px solid var(--brand-icon-color);
 	border-radius: 4px;
-	height: 88px;
-	padding: 16px 32px;
-	width: 168px;
-}
-.brand-item:not(:last-child){
-
-margin-right: 24px;
+	
 }
 
-.icon-one {
-	width: 41px;
-	height: 47px;
+.brand-link:hover,
+.brand-link:focus {
+color: var(--button-active-color);
+
 }
 
-.icon-two {
-	width: 40px;
-	height: 52px;
+.icon-brand {
+width: 104px;
+height: 56px;
+fill: var(--brand-icon-color);
+
 }
 
-.icon-three {
-	width: 44px;
-	height: 41px;
-}
+.icon-brand:hover,
+.icon-brand:focus {
+fill: var(--button-active-color);
 
-.icon-four {
-	width: 84px;
-	height: 41px;
-}
-
-.icon-five {
-	width: 63px;
-	height: 45px;
-}
-
-.icon-six {
-	width: 94px;
-	height: 44px;
 }
 
 /* Footer */

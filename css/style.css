@@ -172,6 +172,9 @@ color: var(--accent-color);
 /* Hero */
 
 .hero {	
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
 padding: 188px 0;
 height: 600px;
 text-align: center;
@@ -380,6 +383,7 @@ padding-top: 130px;
 .brand-item {
 	width: 168px;
 	height: 88px;
+
 }
 
 .brand-item:not(:last-child) {
@@ -399,7 +403,7 @@ border: 1px solid var(--brand-icon-color);
 
 .brand-link:hover,
 .brand-link:focus {
-color: var(--button-active-color);
+border-color: var(--button-active-color);
 
 }
 
@@ -412,7 +416,7 @@ fill: var(--brand-icon-color);
 
 .icon-brand:hover,
 .icon-brand:focus {
-fill: var(--button-active-color);
+	fill: var(--button-active-color);
 
 }
 

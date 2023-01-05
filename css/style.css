@@ -539,18 +539,15 @@ letter-spacing: 0.04em;
 .examples-nav button:focus {
 border-color: transparent;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+background-color: var(--accent-color);
+	color: var(--white-color);
 }
 
 .examples-nav .item:not(:last-child){
 margin-right:24px;
 }
 
-.examples-nav button:hover,
-.examples-nav button:focus
-{
-background-color: var(--accent-color);
-color: var(--white-color);
-}
+
 
 .examples-nav.list{
 margin-bottom: 72px;

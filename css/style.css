@@ -286,14 +286,23 @@ margin: 24px 24px 528px 360px;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
 background-color: var(--secondary-accent-color);
+}
 
+.modal-button:active {
+background-color: var(--button-active-color);
+}
+
+.modal-button:active .icon-modal{
+fill: var(--white-color);
 }
 
 .icon-modal {
 	width: 8px;
 	height: 8px;
+	
 
 }
+
 
 /* Advantages */
 

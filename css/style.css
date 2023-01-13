@@ -676,6 +676,7 @@ margin: 0;
 
 .thumb-bottom {
 	padding: 32px 0 32px 16px;
+	border: 1px solid var(--secondary-accent-color);
 
 }
 
@@ -710,7 +711,6 @@ margin-right: 0;
 margin-right: 24px;
 margin-bottom: 48px;
 width: 360px;
-border: 1px solid var(--secondary-accent-color);
 background-color: var(--white-color);
 }
 

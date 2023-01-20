@@ -264,6 +264,7 @@ transform: translate(-50%,-50%) scale(1.1);
 }
 
 .modal {
+	padding: 24px;
 position: absolute;
 top: 50%;
 left:50%;
@@ -275,12 +276,14 @@ background-color: var(--modal-window-color);
 }
 
 .modal-button {
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 width: 24px;
 height: 24px;
-margin: 24px 24px 528px 360px;
+top:24px;
+right: 24px;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
 background-color: var(--secondary-accent-color);

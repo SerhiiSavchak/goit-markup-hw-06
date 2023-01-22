@@ -4,23 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <!-- Main styles -->
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Webstudio</title>
   </head>
+
   <body>
     <!--Header-->
-
     <header class="page-header">
       <!--Navigate-->
-
       <div class="container main-nav">
         <nav class="nav-container">
           <a href="./index.html" class="logo">
@@ -60,15 +65,14 @@
     <!--Main content-->
     <main>
       <!--Hero-->
-
       <section class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="hero-button" type="button" data-modal-open>
           Order Service
         </button>
       </section>
-      <!--Advantages-->
 
+      <!--Section Advantages-->
       <section class="section advantages">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
@@ -124,8 +128,8 @@
           </ul>
         </div>
       </section>
-      <!--Product-->
 
+      <!-- Section Product-->
       <section class="section-no-padding section">
         <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
@@ -157,8 +161,8 @@
           </ul>
         </div>
       </section>
-      <!--Team-->
 
+      <!-- Section Team-->
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
@@ -335,6 +339,7 @@
         </div>
       </section>
 
+      <!-- Section Brand -->
       <section class="section brand">
         <div class="container">
           <h2 class="section-title">Customers</h2>
@@ -387,7 +392,6 @@
     </main>
 
     <!--Footer-->
-
     <footer class="footer">
       <div class="footer-container">
         <div class="section-logo">
@@ -435,7 +439,7 @@
         </div>
         <div class="footer-form-container">
           <p class="footer-form-title">Subscribe</p>
-          <form class="footer-form" action="">
+          <form class="footer-form">
             <input class="footer-input" type="email" placeholder="E-mail" />
             <button class="footer-button" type="submit">
               Subscribe<svg class="icon-plain">
@@ -447,9 +451,11 @@
       </div>
     </footer>
 
+    <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <form action="" name="registration-user">
+        <!-- Form -->
+        <form name="registration-user">
           <div
             class="form-container"
             role="group"
@@ -514,16 +520,18 @@
                 ></textarea>
               </div>
             </div>
-            <div class="form-container checkbox">
-              <input class="form-input-checkbox" type="checkbox" value="" />
+            <label class="form-label" for="form-input-checkbox"
+              ><input
+                class="form-input-checkbox"
+                type="checkbox"
+                value=""
+                id="form-input-checkbox"
+              />
               <svg class="icon-checkbox">
-                <use href="./images/sprite/icons.svg#icon-checkbox"></use>
-              </svg>
-              <label class="form-label" for="form-input-checkbox"
-                >I accept the terms and conditions of the
-                <a class="form-link" href="">Privacy Policy</a></label
-              >
-            </div>
+                <use href="./images/sprite/icons.svg#icon-checkbox"></use></svg
+              >I accept the terms and conditions of the
+              <a class="form-link" href="">Privacy Policy</a></label
+            >
             <button class="form-button" type="submit">Send</button>
           </div>
         </form>
